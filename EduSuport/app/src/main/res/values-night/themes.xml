@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="Base.Theme.EduSuport" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.EduSuport" parent="Base.Theme.EduSuport" />
+    <style name="textEdit"><item name="android:textColor">@color/white_mid_emp</item> </style>
+    <style name="bgSend"><item name="android:background">@color/white</item> </style>
+    <color name="backgroundColor">@color/black</color>
+    <color name="textColor">@color/white</color>
+    <style name="textColor"><item name="android:textColor">@color/white</item> </style>
+    <style name="backgroundColor"><item name="android:background">@color/midDark</item> </style>
+    <style name="itemHomeColor"><item name="android:background">@color/nav</item> </style>
+    <style name="black_high_emp"><item name="android:textColor">@color/black_high_emp</item> </style>
+    <style name="textSubject"><item name="android:textColor">@color/black_high_emp</item></style>
+    <style name="colorSubject"><item name="android:textColor">@color/black_high_emp</item></style>
+    <style name="backgroundSubject"><item name="android:background">@color/midDark</item> </style>
+    <style name="backgroundsubject"><item name="android:background">@drawable/background_subject_radius_night</item> </style>
+</resources>

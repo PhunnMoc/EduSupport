@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:padding="20dp"
+        android:textColor="@color/black_mid_emp"
+        android:text="@string/question"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/txt_front"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradien_background_darkblue"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Front"
+        android:textColor="@color/black_mid_emp" />
+
+
+</FrameLayout>

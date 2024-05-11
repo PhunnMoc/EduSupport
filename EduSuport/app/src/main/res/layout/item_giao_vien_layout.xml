@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layoutXPItem"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@drawable/fullbutton_background"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avaGV"
+        android:layout_centerInParent= "true"
+        android:layout_width= "40dp"
+        android:layout_height= "40dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ava" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txvTenGV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Hoàng Công Thiện"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black_high_emp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txvMaGV"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã giáo viên: 123"
+                android:textStyle="italic"
+                android:textColor="@color/black_high_emp"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

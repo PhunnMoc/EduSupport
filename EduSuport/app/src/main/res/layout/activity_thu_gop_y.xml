@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/backgroundColor"
+        android:padding="5dp"
+        tools:context=".activity.ThuGopYActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_background">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                >
+                <ImageButton
+                    android:id="@+id/btnBack"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/fullbutton_background"
+                    android:padding="10dp"
+                    android:src="@drawable/back_icon"
+                    android:scaleType="fitCenter"
+
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/feedback"
+                    android:textColor="@color/black_high_emp"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/white_mid_emp"
+            android:outlineAmbientShadowColor="@color/black_high_emp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_centerInParent= "true"
+                android:layout_width= "40dp"
+                android:layout_height= "40dp"
+                android:src="@drawable/ava"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txvTenNguoiGui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="Công Thiện"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/txvThoiGian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end|center"
+                        android:textAlignment="textEnd"
+                        android:textColor="@color/black_high_emp"
+                        android:text="15/3"
+                        android:textSize="13dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginBottom="1dp"
+                    android:textColor="@color/black_high_emp"
+                    android:text="@string/toMe"
+                    android:textSize="10dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@drawable/backgroun_boder_letter">
+            <TextView
+                android:id="@+id/txvTieuDe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginBottom="10dp"
+                style="@style/textColor"
+                android:text="Hiện tại tôi đã thấy giáo viên có thái độ cư xử không đúng"/>
+            <TextView
+                android:id="@+id/txvNoiDung"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="@style/textColor"
+                android:text="Hiện tại tôi đã thấy giáo viên có thái độ cư xử không đúng"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

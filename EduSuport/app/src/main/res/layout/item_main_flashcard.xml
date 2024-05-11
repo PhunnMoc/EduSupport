@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_question" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imageView"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/cauhoi_fc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Em ăn cơm chưa"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            style="@style/textColor"/>
+
+
+
+        <TextView
+            android:id="@+id/traloi_fc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Em ăn cơm với gau heheheehehehe"
+            android:paddingTop="5dp"
+            android:textSize="10dp"
+            style="@style/textColor"
+            />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_moreOptFC"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/fullbutton_background"
+        android:scaleType="fitCenter"
+        android:src="@drawable/more3dot" />
+
+</RelativeLayout>

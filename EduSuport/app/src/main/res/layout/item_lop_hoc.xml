@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="125dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_lop_hoc"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:clipToOutline="true"
+        android:src="@drawable/img_list_class"
+        android:background="@drawable/fullbutton_background"/>
+
+    <TextView
+        android:id="@+id/txvTenLop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lớp 12B3"
+        android:textSize="16dp"
+        android:paddingLeft="5dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/main_dark_blue"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/txvSiSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sĩ số lớp: 20"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

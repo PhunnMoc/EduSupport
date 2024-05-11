@@ -1,0 +1,31 @@
+<LinearLayout
+    android:id="@+id/rl_fragment"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginBottom="5dp"
+    >
+
+    <TextView
+        android:id="@+id/ten_navLopHoc"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lớp 1Ab"
+        android:textSize="15dp"
+        android:singleLine="true"
+        style="@style/textColor"
+        android:ellipsize="end"
+        android:background="@drawable/background_subject_radius_lop"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/id_navLopHoc"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E7E7E7"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/backgroundColor"
+        android:padding="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="10dp"
+            android:background="@drawable/button_background">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:paddingTop="10dp"
+                    >
+                    <ImageButton
+                        android:id="@+id/back_TaiLieuMain"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/fullbutton_background"
+                        android:padding="10dp"
+                        android:src="@drawable/back_icon"
+                        android:scaleType="fitCenter"
+                        />
+                    <TextView
+                        android:id="@+id/tenNhomThe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Flashcard: 300 BÀI CODE PHỤ HUYNH"
+                        android:textColor="@color/black_high_emp"/>
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btn_moreOptFlashCard"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/button_background"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/more3dot" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/btn_stydyFC"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/icon_play"
+                    android:background="@drawable/fullbutton_background"
+
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/backgroun_boder_letter"
+                android:padding="5dp">
+
+                <SearchView
+                    android:id="@+id/filterCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:queryHint="Tìm tài liệu" />
+
+            </RelativeLayout>
+            <ListView
+                android:id="@+id/lvTheLats"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <include
+        layout="@layout/botsheet_tailieufile"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

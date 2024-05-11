@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/fullbutton_background"
+    android:id="@+id/bottomSheet"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="20dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/flashcard_background"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/bot_hinhGFC"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/flashcard" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_toEndOf="@+id/bot_hinhGFC"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/bot_nameGFC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="5dp"
+                    android:text="Tài liệu học tập cực vip..."
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black_high_emp"/>
+
+                <TextView
+                    android:id="@+id/bot_timeGFC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload day 24/03/2003"
+                    android:textSize="10dp"
+                    android:textColor="@color/black_high_emp"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <TableLayout
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:id="@+id/bot_chinhsuaGFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <ImageView
+                        android:id="@+id/uu"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_edit" />
+
+                    <TextView
+                        android:id="@+id/gg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/editNameFlashcard"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textColor="@color/black_high_emp"/>
+                </LinearLayout>
+            </TableRow>
+            <TableRow
+                android:id="@+id/bot_xoaGFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/udu"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_delete" />
+
+                    <TextView
+                        android:id="@+id/ggd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/delFlashcard"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black_high_emp"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/bot_shareGFC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:padding="10dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/icon_share" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/shareFlashcard"
+                        android:textSize="14dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black_high_emp"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

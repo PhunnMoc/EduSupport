@@ -16,6 +16,13 @@ The learning support application “Edusuport” not only helps users access kno
   
 |      Studen   |    Parents    | Teacher    |
 | :------------:|:-------------:|:-----:|
-|  Log in  |
-|     2         |        4      |   1   |
-|     a         | b             |    d  |
+|  Log in  |Log in|Log in
+|  View timetable|View timetable     |   Upload timetable.  |
+|    View flashcards, reference materials   | View flashcards, reference materials |Create flashcards, reference materials |
+|See announcement|See announcement| Send announcement|
+|Chat|Chat|Chat|
+||Leave of Absence Letter|Accept or reject |
+||Feed back(incognito)|Read feed back|
+|||Create, Edit, delete class|
+|||Add,delete,move student in class|
+

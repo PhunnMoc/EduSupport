@@ -25,4 +25,6 @@ The learning support application “Edusuport” not only helps users access kno
 ||Feed back(incognito)|Read feed back|
 |||Create, Edit, delete class|
 |||Add,delete,move student in class|
+|View student's score|View student's score|Mark score|
+
 

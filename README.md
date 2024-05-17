@@ -16,7 +16,8 @@ The learning support application “Edusuport” not only helps users access kno
   
 |      Studen   |    Parents    | Teacher    |
 | :------------:|:-------------:|:-----:|
-|  Log in  |Log in|Log in
+|  Log in  |Log in|Log in by google/email|
+| Edit information  |Edit information |Edit information |
 |  View timetable|View timetable     |   Upload timetable.  |
 |    View flashcards, reference materials   | View flashcards, reference materials |Create flashcards, reference materials |
 |See announcement|See announcement| Send announcement|

@@ -16,6 +16,6 @@ The learning support application “Edusuport” not only helps users access kno
   
 |      Studen   |    Parents    | Teacher    |
 | :------------:|:-------------:|:-----:|
-|    3          |        2      |  1    |
+|  Log in  |
 |     2         |        4      |   1   |
 |     a         | b             |    d  |

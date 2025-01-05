@@ -2,9 +2,11 @@
  
 
  ## Introduce
--The development of the Information Technology industry has created many big changes in many fields of society such as health, culture, entertainment, etc. As for the education field, the Information Technology industry is playing a major role. an important role in the management and training of students. Using technology to optimize the learning process has become necessary for everyone.
+- The development of the Information Technology industry has created many big changes in many fields of society such as health, culture, entertainment, etc. As for the education field, the Information Technology industry is playing a major role. an important role in the management and training of students. Using technology to optimize the learning process has become necessary for everyone.
           
-The learning support application “Edusuport” not only helps users access knowledge flexibly and conveniently, but also promotes personal development and brings diverse and interesting learning experiences.*
+- The learning support application “Edusuport” not only helps users access knowledge flexibly and conveniently, but also promotes personal development and brings diverse and interesting learning experiences.*
+
+- An Edu Support application designed to enhance communication and education by connecting parents, students, and teachers. The app offers distinct features tailored to each role: parents can track their child’s academic progress, communicate with teachers, and receive important updates; students can access learning materials, and monitor their performance; and teachers can manage class schedules, share resources, and engage with parents and students effectively.
  
  ## Use
  -Java :+1:
